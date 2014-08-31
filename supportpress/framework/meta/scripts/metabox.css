@@ -1,0 +1,23 @@
+/* common rules for all fields */
+.prth-label-td {width: 35% !important; }
+.prth-label-td small{ color: #555; }
+.prth-label { font-weight: bold; }
+
+/* select text */
+.prth-text {width: 100% !important}
+
+/* select field */
+.prth-select {height: auto !important; text-transform: capitalize; width: 100%; }
+.prth-select option{ text-transform: capitalize; }
+
+/* meta slider */
+.prth-ms-container{background:#fcfcfc; padding:7px 10px; border:1px solid #e3e3e3; -moz-border-radius:3px; -khtml-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; margin-bottom:10px}
+.meta-slides .placeholder{background:#fcfcfc; border:1px dashed #e3e3e3; height:36px; margin-bottom:10px}
+.prth-ms-head{font-weight:bold; color:#000; cursor:move; overflow:hidden}
+.prth-ms-head a.prth-ms-toggle, .prth-ms-head a.prth-ms-delete{font-weight:normal; float:right; text-decoration:none}
+.prth-ms-head a:hover.prth-ms-toggle, .prth-ms-head a:hover.prth-ms-delete{text-decoration:underline}
+.prth-ms-body{margin-top:10px; display:none}
+.prth-ms-input, .prth-ms-textarea{width:100%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box}
+.ms-upload-button{margin:5px 0 0}
+a.prth-ms-add-new{padding-top:10px; text-decoration:none}
+a:hover.prth-ms-add-new{text-decoration:underline}

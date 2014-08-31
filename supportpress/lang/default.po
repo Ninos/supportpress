@@ -1,0 +1,1285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: supportpress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-25 2:35-0800\n"
+"PO-Revision-Date: 2013-04-25 2:35-0800\n"
+"Last-Translator: PressThemes\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:16
+msgid "Sorry, the page you are looking for is not here."
+msgstr ""
+
+#: ../404.php:16
+msgid "homepage"
+msgstr ""
+
+#: ../author.php:13
+msgid "Posts by"
+msgstr ""
+
+#: ../comments.php:16
+msgid "Leave a reply"
+msgstr ""
+
+#: ../comments.php:17
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:18
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:19
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:20
+msgid "Comment Navigation"
+msgstr ""
+
+#: ../comments.php:21
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:22
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:23
+msgid "Submit Comment"
+msgstr ""
+
+#: ../comments.php:24
+msgid "Log In To Comment"
+msgstr ""
+
+#: ../footer.php:80
+msgid "Copyright"
+msgstr ""
+
+#: ../functions.php:60
+msgid "Top"
+msgstr ""
+
+#: ../functions.php:61
+msgid "Client"
+msgstr ""
+
+#: ../functions.php:62
+msgid "Footer"
+msgstr ""
+
+#: ../search.php:17
+#: ../search.php:36
+msgid "Search Results For"
+msgstr ""
+
+#: ../search.php:40
+msgid "No results found for that query."
+msgstr ""
+
+#: ../single.php:100
+msgid "Related Articles"
+msgstr ""
+
+#: ../single.php:118
+msgid "read more"
+msgstr ""
+
+#: ../framework/prth_framework.php:8
+msgid "Framework location not defined."
+msgstr ""
+
+#: ../framework/admin/classes/class.options_machine.php:449
+msgid "Last Backup : "
+msgstr ""
+
+#: ../framework/admin/classes/class.options_machine.php:509
+msgid "Upload"
+msgstr ""
+
+#: ../framework/admin/front-end/options.php:42
+#: ../framework/admin/front-end/options.php:66
+msgid "Save All Changes"
+msgstr ""
+
+#: ../framework/admin/front-end/options.php:67
+msgid "Options Reset"
+msgstr ""
+
+#: ../framework/admin/functions/functions.mediauploader.php:20
+msgid "Options"
+msgstr ""
+
+#: ../framework/admin/functions/functions.mediauploader.php:210
+msgid "Gallery"
+msgstr ""
+
+#: ../framework/admin/functions/functions.mediauploader.php:210
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../framework/functions/enhanced_comments.php:9
+msgid "Reply to comment"
+msgstr ""
+
+#: ../framework/functions/enhanced_comments.php:18
+#, php-format
+msgid "<cite class=\"author\">%s</cite>"
+msgstr ""
+
+#: ../framework/functions/variables.php:57
+msgid "0 Comments"
+msgstr ""
+
+#: ../framework/functions/variables.php:58
+msgid "1 Comment"
+msgstr ""
+
+#: ../framework/functions/variables.php:59
+msgid "% Comments"
+msgstr ""
+
+#: ../framework/functions/variables.php:60
+msgid "Comments Disabled"
+msgstr ""
+
+#: ../framework/meta/meta_class.php:109
+msgid "Select a color"
+msgstr ""
+
+#: ../framework/meta/meta_class.php:110
+msgid "Hide Picker"
+msgstr ""
+
+#: ../framework/meta/meta_class.php:164
+msgid "None"
+msgstr ""
+
+#: ../framework/meta/meta_class.php:343
+msgid "Slide title *"
+msgstr ""
+
+#: ../framework/meta/meta_class.php:348
+msgid "Image"
+msgstr ""
+
+#: ../framework/meta/meta_class.php:348
+msgid "MUST be uploaded to your WordPress install for security reasons"
+msgstr ""
+
+#: ../framework/meta/meta_class.php:354
+msgid "Link:"
+msgstr ""
+
+#: ../framework/meta/meta_class.php:359
+msgid "Lightbox Link:"
+msgstr ""
+
+#: ../framework/meta/meta_class.php:359
+msgid "this will override the link field above."
+msgstr ""
+
+#: ../framework/meta/meta_class.php:364
+msgid "Description (Optional) "
+msgstr ""
+
+#: ../framework/meta/meta_class.php:369
+msgid "Video URL:"
+msgstr ""
+
+#: ../framework/meta/meta_class.php:369
+msgid "Enter in a video URL that is compatible with WordPress's built-in oEmbed feature."
+msgstr ""
+
+#: ../framework/meta/meta_class.php:369
+msgid "Learn More"
+msgstr ""
+
+#: ../framework/shortcodes/shortcodes.php:221
+msgid "Heading Title"
+msgstr ""
+
+#: ../framework/widgets/recent-custom-types.php:77
+#: ../framework/widgets/taxonomies.php:74
+msgid "Select a post type:"
+msgstr ""
+
+#: ../framework/widgets/taxonomies.php:18
+msgid "PRTH - Post Type Categories"
+msgstr ""
+
+#: ../framework/widgets/taxonomies.php:58
+msgid "Select a taxonomy in the dashboard"
+msgstr ""
+
+#: ../framework/widgets/taxonomies.php:64
+msgid "Categories"
+msgstr ""
+
+#: ../framework/widgets/taxonomies.php:90
+msgid "Show Count"
+msgstr ""
+
+#: ../framework/widgets/taxonomies.php:92
+msgid "Yes"
+msgstr ""
+
+#: ../framework/widgets/taxonomies.php:93
+msgid "No"
+msgstr ""
+
+#: ../library/admin_options.php:66
+#: ../library/admin_options.php:73
+#: ../library/admin_options.php:80
+msgid "Select"
+msgstr ""
+
+#: ../library/admin_options.php:111
+msgid "General Settings"
+msgstr ""
+
+#: ../library/admin_options.php:118
+msgid "Logos and Branding"
+msgstr ""
+
+#: ../library/admin_options.php:122
+msgid "Custom Logo (Main)"
+msgstr ""
+
+#: ../library/admin_options.php:123
+msgid "You can upload your main site logo here or paste the URL here."
+msgstr ""
+
+#: ../library/admin_options.php:128
+msgid "Custom Logo (Login)"
+msgstr ""
+
+#: ../library/admin_options.php:129
+msgid "You can upload a custom logo for the Wordpress Login Page here or paste the URL here."
+msgstr ""
+
+#: ../library/admin_options.php:134
+msgid "Custom Height - Login Logo"
+msgstr ""
+
+#: ../library/admin_options.php:135
+msgid "You can customize the height of the login logo if need be (the width should not be changed)"
+msgstr ""
+
+#: ../library/admin_options.php:140
+msgid "Responsive Menu Text"
+msgstr ""
+
+#: ../library/admin_options.php:141
+msgid "Custom Responsive text for menu."
+msgstr ""
+
+#: ../library/admin_options.php:146
+msgid "Favicon"
+msgstr ""
+
+#: ../library/admin_options.php:147
+msgid "Upload or paste the URL here for your favicon."
+msgstr ""
+
+#: ../library/admin_options.php:211
+msgid "Twitter Settings"
+msgstr ""
+
+#: ../library/admin_options.php:214
+msgid "Twitter Search Term"
+msgstr ""
+
+#: ../library/admin_options.php:215
+msgid "What term would you like Twitter to Search for?"
+msgstr ""
+
+#: ../library/admin_options.php:220
+msgid "Twitter - Consumer Key"
+msgstr ""
+
+#: ../library/admin_options.php:221
+msgid "Your consumer key from twitter"
+msgstr ""
+
+#: ../library/admin_options.php:226
+msgid "Twitter - Consumer Secret"
+msgstr ""
+
+#: ../library/admin_options.php:227
+msgid "Your consumer secret from twitter"
+msgstr ""
+
+#: ../library/admin_options.php:232
+msgid "Twitter - Oauth Key"
+msgstr ""
+
+#: ../library/admin_options.php:233
+msgid "Your access key from twitter"
+msgstr ""
+
+#: ../library/admin_options.php:238
+msgid "Twitter - Oauth Secret"
+msgstr ""
+
+#: ../library/admin_options.php:239
+msgid "Your access secret from twitter"
+msgstr ""
+
+
+#: ../library/admin_options.php:251
+msgid "Page Links"
+msgstr ""
+
+#: ../library/admin_options.php:255
+msgid "Page - Login"
+msgstr ""
+
+#: ../library/admin_options.php:256
+#: ../library/admin_options.php:262
+#: ../library/admin_options.php:268
+msgid "Paste the URL here."
+msgstr ""
+
+#: ../library/admin_options.php:261
+msgid "Page - Admin Options"
+msgstr ""
+
+#: ../library/admin_options.php:267
+msgid "Page - Add Ticket"
+msgstr ""
+
+#: ../library/admin_options.php:278
+msgid "Styling"
+msgstr ""
+
+#: ../library/admin_options.php:282
+msgid "Color Scheme"
+msgstr ""
+
+#: ../library/admin_options.php:283
+msgid "Choose the basic color skin color for your site."
+msgstr ""
+
+#: ../library/admin_options.php:300
+msgid "Sidebar Layout"
+msgstr ""
+
+#: ../library/admin_options.php:301
+msgid "Choose the sidebar position - left or right."
+msgstr ""
+
+#: ../library/admin_options.php:310
+msgid "Custom CSS"
+msgstr ""
+
+#: ../library/admin_options.php:311
+msgid "Place any Custom CSS you may have need of here."
+msgstr ""
+
+#: ../library/admin_options.php:320
+msgid "Backgrounds"
+msgstr ""
+
+#: ../library/admin_options.php:327
+msgid "Main"
+msgstr ""
+
+#: ../library/admin_options.php:331
+msgid "Main Background Image"
+msgstr ""
+
+#: ../library/admin_options.php:332
+msgid "Choose a background or add your own by placing the images in your images/backgrounds folder in theme directory."
+msgstr ""
+
+#: ../library/admin_options.php:338
+msgid "Main Custom Image"
+msgstr ""
+
+#: ../library/admin_options.php:339
+msgid "Upload or paste the image URL here"
+msgstr ""
+
+#: ../library/admin_options.php:344
+msgid "Main Background Style"
+msgstr ""
+
+#: ../library/admin_options.php:345
+msgid "Select background style."
+msgstr ""
+
+#: ../library/admin_options.php:351
+msgid "Main Background Color"
+msgstr ""
+
+#: ../library/admin_options.php:352
+msgid "Select background color."
+msgstr ""
+
+#: ../library/admin_options.php:363
+msgid "Home Page"
+msgstr ""
+
+#: ../library/admin_options.php:399
+msgid "Homepage Tagline"
+msgstr ""
+
+#: ../library/admin_options.php:403
+msgid "Tagline Title"
+msgstr ""
+
+#: ../library/admin_options.php:404
+msgid "Leave blank in order to not show tagline title."
+msgstr ""
+
+#: ../library/admin_options.php:409
+msgid "Tagline URL'"
+msgstr ""
+
+#: ../library/admin_options.php:410
+msgid "Leave blank for no link when tagline is clicked."
+msgstr ""
+
+#: ../library/admin_options.php:415
+msgid "Tagline"
+msgstr ""
+
+#: ../library/admin_options.php:528
+msgid "Blog"
+msgstr ""
+
+#: ../library/admin_options.php:535
+msgid "Main Blog"
+msgstr ""
+
+#: ../library/admin_options.php:539
+msgid "Show Full Content"
+msgstr ""
+
+#: ../library/admin_options.php:540
+msgid "Enable to show full post content."
+msgstr ""
+
+#: ../library/admin_options.php:546
+msgid "Post Excerpt Length"
+msgstr ""
+
+#: ../library/admin_options.php:547
+msgid "Enter a custom length for blog excerpts."
+msgstr ""
+
+#: ../library/admin_options.php:552
+msgid "Main Blog - Read More Button"
+msgstr ""
+
+#: ../library/admin_options.php:553
+msgid "Choose to show or hide the read more button on your blog pages."
+msgstr ""
+
+#: ../library/admin_options.php:559
+msgid "Image Hover Color"
+msgstr ""
+
+#: ../library/admin_options.php:560
+msgid "Choose your hover color when mousing over blog entries."
+msgstr ""
+
+#: ../library/admin_options.php:565
+msgid "Image Hover Opacity"
+msgstr ""
+
+#: ../library/admin_options.php:582
+msgid "Single Posts"
+msgstr ""
+
+#: ../library/admin_options.php:586
+msgid "Post - Show Featured Image"
+msgstr ""
+
+#: ../library/admin_options.php:587
+msgid "Choose to show/hide the featured image"
+msgstr ""
+
+#: ../library/admin_options.php:593
+msgid "Post - Crop Featured Images"
+msgstr ""
+
+#: ../library/admin_options.php:594
+msgid "Enable to crop featured images, disabled to show full width."
+msgstr ""
+
+#: ../library/admin_options.php:600
+msgid "Post - Featured Image Height"
+msgstr ""
+
+#: ../library/admin_options.php:606
+msgid "Post - Meta"
+msgstr ""
+
+#: ../library/admin_options.php:607
+msgid "Choose to show or hide meta information on single blog posts. "
+msgstr ""
+
+#: ../library/admin_options.php:613
+msgid "Post - Tags"
+msgstr ""
+
+#: ../library/admin_options.php:614
+msgid "Choose to show or hide post tags on single blog posts. "
+msgstr ""
+
+#: ../library/admin_options.php:620
+msgid "Post - Related Posts"
+msgstr ""
+
+#: ../library/admin_options.php:621
+msgid "Choose to show or hide related posts on single blog posts. "
+msgstr ""
+
+#: ../library/admin_options.php:638
+msgid "Discussion"
+msgstr ""
+
+#: ../library/admin_options.php:641
+msgid "Comment Placeholder"
+msgstr ""
+
+#: ../library/admin_options.php:642
+msgid "Comment placeholder text"
+msgstr ""
+
+#: ../library/admin_options.php:647
+msgid "Show/Hide Comments On Blogs"
+msgstr ""
+
+#: ../library/admin_options.php:648
+msgid "Select to enable/disable comments on blog posts sitewide."
+msgstr ""
+
+#: ../library/admin_options.php:654
+msgid "Show/Hide Comments On Pages"
+msgstr ""
+
+#: ../library/admin_options.php:655
+msgid "Select to enable/disable comments on regular pages sitewide."
+msgstr ""
+
+#: ../library/admin_options.php:661
+msgid "Show/Hide Comments On KnowledgeBase"
+msgstr ""
+
+#: ../library/admin_options.php:662
+msgid "Select to enable/disable comments on knowledgebase posts."
+msgstr ""
+
+#: ../library/admin_options.php:668
+msgid "Show/Hide Comments On FAQs"
+msgstr ""
+
+#: ../library/admin_options.php:669
+msgid "Select to enable/disable comments on faq posts."
+msgstr ""
+
+#: ../library/admin_options.php:681
+msgid "Footer"
+msgstr ""
+
+#: ../library/admin_options.php:684
+msgid "Footer Header Text"
+msgstr ""
+
+#: ../library/admin_options.php:685
+msgid "Enter your text for the footer header region."
+msgstr ""
+
+#: ../library/admin_options.php:687
+msgid "Edit your tagline in the Theme Panel "Footer" tab."
+msgstr ""
+
+#: ../library/admin_options.php:690
+msgid "Show/Hide Widgetized Footer"
+msgstr ""
+
+#: ../library/admin_options.php:691
+msgid "Show or hide widget spaces in the footer."
+msgstr ""
+
+#: ../library/admin_options.php:697
+msgid "Footer Layout"
+msgstr ""
+
+#: ../library/admin_options.php:698
+msgid "Select footer widget layout."
+msgstr ""
+
+#: ../library/admin_options.php:707
+msgid "Copyright"
+msgstr ""
+
+#: ../library/admin_options.php:708
+msgid "Your text/HTML for copyright goes here."
+msgstr ""
+
+#: ../library/admin_options.php:813
+msgid "Translations"
+msgstr ""
+
+#: ../library/admin_options.php:821
+msgid "Thanks to early ProjectPress users who helped me identify some of the gaps in Wordpress Translation for these."
+msgstr ""
+
+#: ../library/admin_options.php:829
+msgid "User Role Translations"
+msgstr ""
+
+#: ../library/admin_options.php:833
+msgid "Administrator"
+msgstr ""
+
+#: ../library/admin_options.php:834
+msgid "Custom text for administrator user role."
+msgstr ""
+
+#: ../library/admin_options.php:839
+msgid "Editor"
+msgstr ""
+
+#: ../library/admin_options.php:840
+msgid "Custom text for editor user role."
+msgstr ""
+
+#: ../library/admin_options.php:845
+msgid "Subscriber"
+msgstr ""
+
+#: ../library/admin_options.php:846
+msgid "Custom text for subscriber user role."
+msgstr ""
+
+#: ../library/admin_options.php:856
+msgid "Other Translations"
+msgstr ""
+
+#: ../library/admin_options.php:885
+msgid "Related Items"
+msgstr ""
+
+#: ../library/admin_options.php:886
+msgid "Custom related items text."
+msgstr ""
+
+#: ../library/admin_options.php:891
+msgid "Related Blog Posts"
+msgstr ""
+
+#: ../library/admin_options.php:892
+msgid "Custom related blog posts text."
+msgstr ""
+
+#: ../library/admin_options.php:897
+msgid "Read More Text"
+msgstr ""
+
+#: ../library/admin_options.php:903
+msgid "Meta Information - "Tags""
+msgstr ""
+
+#: ../library/admin_options.php:904
+msgid "Custom "tags" text."
+msgstr ""
+
+#: ../library/admin_options.php:909
+msgid "Meta Information - "Post By""
+msgstr ""
+
+#: ../library/admin_options.php:910
+msgid "Custom "post by" text."
+msgstr ""
+
+#: ../library/admin_options.php:915
+msgid "Comments"
+msgstr ""
+
+#: ../library/admin_options.php:916
+msgid "Custom comments text."
+msgstr ""
+
+#: ../library/admin_options.php:921
+msgid "Comments Disabled"
+msgstr ""
+
+#: ../library/admin_options.php:922
+msgid "Custom comments disabled text."
+msgstr ""
+
+#: ../library/admin_options.php:927
+msgid "Leave a reply"
+msgstr ""
+
+#: ../library/admin_options.php:928
+msgid "Custom leave a reply text."
+msgstr ""
+
+#: ../library/admin_options.php:933
+msgid "Name"
+msgstr ""
+
+#: ../library/admin_options.php:934
+msgid "Custom "name" text."
+msgstr ""
+
+#: ../library/admin_options.php:939
+msgid "Email"
+msgstr ""
+
+#: ../library/admin_options.php:949
+msgid "Custom "Email" text."
+msgstr ""
+
+#: ../library/admin_options.php:951
+msgid "Comment Navigation"
+msgstr ""
+
+#: ../library/admin_options.php:952
+msgid "Custom "navigation" text."
+msgstr ""
+
+#: ../library/admin_options.php:957
+msgid "Older Comments"
+msgstr ""
+
+#: ../library/admin_options.php:958
+msgid "Custom "older comments" text."
+msgstr ""
+
+#: ../library/admin_options.php:963
+msgid "Newer Comments"
+msgstr ""
+
+#: ../library/admin_options.php:964
+msgid "Custom "newer comments" text."
+msgstr ""
+
+#: ../library/admin_options.php:969
+msgid "Reply To Comment"
+msgstr ""
+
+#: ../library/admin_options.php:970
+msgid "Custom "reply to comment" text."
+msgstr ""
+
+#: ../library/admin_options.php:975
+msgid "Post Comment"
+msgstr ""
+
+#: ../library/admin_options.php:976
+msgid "Custom "post comment" text."
+msgstr ""
+
+#: ../library/admin_options.php:981
+msgid "Log In To Post Comment"
+msgstr ""
+
+#: ../library/admin_options.php:982
+msgid "Custom "Log in to Post Comment" text."
+msgstr ""
+
+#: ../library/admin_options.php:987
+msgid "Search Results - Entries Found"
+msgstr ""
+
+#: ../library/admin_options.php:988
+msgid "Custom search results text - entries found."
+msgstr ""
+
+#: ../library/admin_options.php:993
+msgid "Search Results - Nothing Found'"
+msgstr ""
+
+#: ../library/admin_options.php:994
+msgid "Enter search results text - nothing found."
+msgstr ""
+
+#: ../library/admin_options.php:999
+msgid "404 Error"
+msgstr ""
+
+#: ../library/admin_options.php:1000
+msgid "Custom 404 text."
+msgstr ""
+
+#: ../library/admin_options.php:1012
+msgid "Analytics"
+msgstr ""
+
+#: ../library/admin_options.php:1023
+msgid "Analytics Code (Header)"
+msgstr ""
+
+#: ../library/admin_options.php:1024
+msgid "Input your Google Analytics (or similiar) code here. Anything placed here will be added into header.php."
+msgstr ""
+
+#: ../library/admin_options.php:1029
+msgid "Analytics Code (Footer)"
+msgstr ""
+
+#: ../library/admin_options.php:1030
+msgid "Input your Google Analytics (or similiar) code here. Anything placed here will be added into footer.php."
+msgstr ""
+
+#: ../library/admin_options.php:1040
+#: ../library/admin_options.php:1047
+msgid "Theme Updates"
+msgstr ""
+
+#: ../library/admin_options.php:1051
+msgid "ThemeForest Username"
+msgstr ""
+
+#: ../library/admin_options.php:1052
+msgid "Your ThemeForest Username"
+msgstr ""
+
+#: ../library/admin_options.php:1057
+msgid "Themeforest API Key"
+msgstr ""
+
+#: ../library/admin_options.php:1058
+msgid "Enter your API Key."
+msgstr ""
+
+#: ../library/admin_options.php:1063
+msgid "For support of this theme, please visit www.icaruscreative.org/pressthemes/support"
+msgstr ""
+
+#: ../library/admin_options.php:1067
+msgid "Menu Options Credit"
+msgstr ""
+
+#: ../library/admin_options.php:1074
+msgid "This theme uses the Options Framework with a bit of customization added for extra functionality."
+msgstr ""
+
+
+#: ../library/custom_post_menus.php:17
+msgid "Documentation Options"
+msgstr ""
+
+#: ../library/custom_post_menus.php:22
+msgid "Custom Documentation Order"
+msgstr ""
+
+#: ../library/custom_post_menus.php:23
+msgid "Specify the sorted order that this article/process should be in it\'s category. By default - documentation is sorted by date."
+msgstr ""
+
+#: ../library/custom_post_menus.php:40
+msgid "Post Options"
+msgstr ""
+
+#: ../library/custom_post_menus.php:45
+msgid "Post: Style"
+msgstr ""
+
+#: ../library/custom_post_menus.php:45
+msgid "Select the entry style for this post."
+msgstr ""
+
+#: ../library/custom_post_menus.php:56
+msgid "Post: Featured Image"
+msgstr ""
+
+#: ../library/custom_post_menus.php:58
+msgid "Select enable to show only your featured image and not a slider."
+msgstr ""
+
+#: ../library/custom_post_menus.php:67
+msgid "Post: Slider"
+msgstr ""
+
+#: ../library/custom_post_menus.php:69
+msgid "Select disable if you wish to disable the slider function on this post. Setup your slider below."
+msgstr ""
+
+#: ../library/custom_post_menus.php:78
+msgid "Post: Related Items"
+msgstr ""
+
+#: ../library/custom_post_menus.php:80
+msgid "Select to enable or disable the related posts region."
+msgstr ""
+
+#: ../library/custom_post_menus.php:88
+msgid "Post: Disable Meta"
+msgstr ""
+
+#: ../library/custom_post_menus.php:90
+msgid "Select to enable or disable the porfolio meta area (date/category/etc)."
+msgstr ""
+
+#: ../library/custom_post_menus.php:103
+#: ../library/custom_post_menus.php:107
+msgid "Slides"
+msgstr ""
+
+#: ../library/custom_post_menus.php:108
+msgid "Upload as many slides you want on this page, then drag and drop to arrange them."
+msgstr ""
+
+#: ../library/custom_post_menus.php:126
+msgid "Slider Settings"
+msgstr ""
+
+#: ../library/custom_post_menus.php:130
+msgid "Animation"
+msgstr ""
+
+#: ../library/custom_post_menus.php:131
+msgid "Select your animation."
+msgstr ""
+
+#: ../library/custom_post_menus.php:141
+msgid "Auto transition"
+msgstr ""
+
+#: ../library/custom_post_menus.php:142
+msgid "Select true if you want the slider to start the auto transition automatically."
+msgstr ""
+
+#: ../library/custom_post_menus.php:152
+msgid "Direction Navigation"
+msgstr ""
+
+#: ../library/custom_post_menus.php:153
+msgid "Select true to enable the next/previous arrows."
+msgstr ""
+
+#: ../library/custom_post_menus.php:163
+msgid "Control Navigation"
+msgstr ""
+
+#: ../library/custom_post_menus.php:164
+msgid "Select true to enable the control navigation."
+msgstr ""
+
+#: ../library/custom_post_menus.php:174
+msgid "Smooth Height Transition"
+msgstr ""
+
+#: ../library/custom_post_menus.php:175
+msgid "Select true to enable the smooth transition between slides of different heights. This new setting in FlexSlider 2 is a bit buggy so it\'s set to false by default."
+msgstr ""
+
+#: ../library/custom_post_menus.php:185
+msgid "Slideshow Speed"
+msgstr ""
+
+#: ../library/custom_post_menus.php:185
+msgid "Integer: Set the speed of the slideshow cycling, in milliseconds. Do NOT leave blank."
+msgstr ""
+
+#: ../library/custom_post_menus.php:192
+msgid "Animation Duration"
+msgstr ""
+
+#: ../library/custom_post_menus.php:193
+msgid "Integer: Set the speed of animations, in milliseconds. Do NOT leave blank."
+msgstr ""
+
+#: ../library/custom_post_menus.php:214
+#: ../library/custom_post_menus.php:207
+msgid "Slider Shortcode"
+msgstr ""
+
+#: ../library/custom_post_menus.php:227
+msgid "Tickets Options"
+msgstr ""
+
+#: ../library/custom_post_menus.php:232
+msgid "Tickets Status"
+msgstr ""
+
+#: ../library/custom_post_menus.php:233
+msgid "Status of ticket"
+msgstr ""
+
+#: ../library/custom_post_menus.php:242
+msgid "Ticket Priority"
+msgstr ""
+
+#: ../library/custom_post_menus.php:243
+msgid "Priority Level of Ticket. Level 1 = low, Level 2 = medium, Level 3 = high"
+msgstr ""
+
+#: ../library/custom_post_menus.php:253
+msgid "Ticket Assignment"
+msgstr ""
+
+#: ../library/custom_post_menus.php:254
+msgid "The id of the person who is assigned this ticket"
+msgstr ""
+
+#: ../library/custom_post_menus.php:260
+msgid "Ticket Requestor"
+msgstr ""
+
+#: ../library/custom_post_menus.php:261
+msgid "The id of the person who is requested this ticket"
+msgstr ""
+
+#: ../library/custom_post_menus.php:273
+msgid "Post Options"
+msgstr ""
+
+#: ../library/custom_post_menus.php:277
+msgid "Featured Image"
+msgstr ""
+
+#: ../library/custom_post_menus.php:279
+msgid "Select to enable or disable your featured image"
+msgstr ""
+
+#: ../library/custom_post_menus.php:287
+msgid "Tags"
+msgstr ""
+
+#: ../library/custom_post_menus.php:294
+msgid "Select to enable or disable the tags region."
+msgstr ""
+
+#: ../library/custom_post_menus.php:297
+msgid "Related Posts"
+msgstr ""
+
+#: ../library/custom_post_menus.php:299
+msgid "Select to enable or disable the related posts region."
+msgstr ""
+
+#: ../library/custom_post_menus.php:312
+msgid "Page Template Options"
+msgstr ""
+
+#: ../library/custom_post_menus.php:316
+msgid "Slider"
+msgstr ""
+
+#: ../library/custom_post_menus.php:317
+msgid "Select a slider if you want one at the top of this page full-screen."
+msgstr ""
+
+#: ../library/custom_post_menus.php:322
+msgid "Blog Category"
+msgstr ""
+
+#: ../library/custom_post_menus.php:326
+msgid "Select a category for this blog page."
+msgstr ""
+
+#: ../library/custom_post_menus.php:329
+msgid "Ticket Status"
+msgstr ""
+
+#: ../library/custom_post_menus.php:331
+msgid "On Ticket pages, show open or closed tickets"
+msgstr ""
+
+#: ../library/custom_post_menus.php:339
+msgid "Ticket Page Count"
+msgstr ""
+
+#: ../library/custom_post_menus.php:341
+msgid "On Ticket page, how many posts to show per page (-1 for All)"
+msgstr ""
+
+#: ../library/custom_post_menus.php:346
+msgid "Footer Header Area"
+msgstr ""
+
+#: ../library/custom_post_menus.php:348
+msgid "Select to enable or disable the footer header region above the footer. Ideal for pages like your sitemap, contact page, etc."
+msgstr ""
+
+#: ../library/post_types.php:16
+msgid "Slider"
+msgstr ""
+
+#: ../library/post_types.php:17
+msgid "Slider"
+msgstr ""
+
+#: ../library/post_types.php:18
+msgid "Add Slider"
+msgstr ""
+
+#: ../library/post_types.php:19
+msgid "Add New Slider"
+msgstr ""
+
+#: ../library/post_types.php:20
+msgid "Edit Slider"
+msgstr ""
+
+#: ../library/post_types.php:21
+msgid "New Slider"
+msgstr ""
+
+#: ../library/post_types.php:22
+msgid "View Slider"
+msgstr ""
+
+#: ../library/post_types.php:23
+msgid "Search Sliders"
+msgstr ""
+
+#: ../library/post_types.php:24
+msgid "No Sliders"
+msgstr ""
+
+#: ../library/post_types.php:25
+msgid "No Sliders found in Trash"
+msgstr ""
+
+#: ../library/post_types.php:152
+msgid "No Projects found in Trash"
+msgstr ""
+
+#: ../library/taxonomies.php:17
+msgid "Categories"
+msgstr ""
+
+#: ../library/taxonomies.php:18
+msgid "Category"
+msgstr ""
+
+#: ../library/taxonomies.php:19
+msgid "Search Categories"
+msgstr ""
+
+#: ../library/taxonomies.php:20
+msgid "All Categories"
+msgstr ""
+
+#: ../library/taxonomies.php:21
+msgid "Parent Category"
+msgstr ""
+
+#: ../library/taxonomies.php:22
+msgid "Parent Category:"
+msgstr ""
+
+#: ../library/taxonomies.php:23
+msgid "Edit Category"
+msgstr ""
+
+#: ../library/taxonomies.php:24
+msgid "Update Category"
+msgstr ""
+
+#: ../library/taxonomies.php:25
+msgid "Add New Category"
+msgstr ""
+
+#: ../library/taxonomies.php:26
+msgid "New Category Name"
+msgstr ""
+
+#: ../library/taxonomies.php:27
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: ../library/widget_areas.php:12
+msgid "Home"
+msgstr ""
+
+#: ../library/widget_areas.php:14
+msgid "Homepage Sidebar Widget Area"
+msgstr ""
+
+#: ../library/widget_areas.php:23
+msgid "Home Widget Area"
+msgstr ""
+
+#: ../library/widget_areas.php:25
+msgid "Homepage Widget Area"
+msgstr ""
+
+#: ../library/widget_areas.php:35
+msgid "Pages"
+msgstr ""
+
+#: ../library/widget_areas.php:37
+msgid "Pages Widget Area"
+msgstr ""
+
+#: ../library/widget_areas.php:46
+msgid "Blog/Archives"
+msgstr ""
+
+#: ../library/widget_areas.php:48
+msgid "Blog Widget Area"
+msgstr ""
+
+#: ../library/widget_areas.php:57
+msgid "KnowledgeBase"
+msgstr ""
+
+#: ../library/widget_areas.php:59
+msgid "KnowledgeBase Widget Area."
+msgstr ""
+
+#: ../library/widget_areas.php:68
+msgid "FAQs"
+msgstr ""
+
+#: ../library/widget_areas.php:69
+msgid "FAQ Widget Area."
+msgstr ""
+
+#: ../library/widget_areas.php:79
+msgid "Footer 1"
+msgstr ""
+
+#: ../library/widget_areas.php:81
+msgid "Footer 1 Widget Area"
+msgstr ""
+
+#: ../library/widget_areas.php:91
+msgid "Footer 2"
+msgstr ""
+
+#: ../library/widget_areas.php:93
+msgid "Footer 2 Widget Area"
+msgstr ""
+
+#: ../library/widget_areas.php:103
+msgid "Footer 3"
+msgstr ""
+
+#: ../library/widget_areas.php:105
+msgid "Footer 3 Widget Area"
+msgstr ""
+
+#: ../library/widget_areas.php:115
+msgid "Footer 4"
+msgstr ""
+
+#: ../library/widget_areas.php:117
+msgid "Footer 4 Widget Area"
+msgstr ""
+
+
+
+
+
+

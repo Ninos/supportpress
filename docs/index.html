@@ -1,0 +1,338 @@
+<!doctype html> 
+<html class="no-js" dir="ltr" lang="en-US">
+	<head>
+		<title>SupportPress Theme Documentation</title>
+		<link href='http://fonts.googleapis.com/css?family=Copse' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css">
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js'></script>
+		<script>
+			$(document).ready(function() {
+				
+			    $('#navigation a, .go-top a').bind('click',function(event){
+		    	    var $anchor = $(this);
+        			$('html, body').stop().animate({
+			            scrollTop: $($anchor.attr('href')).offset().top
+	        		}, 500);
+		        	event.preventDefault();
+		    	});
+				
+				$(window).scroll( function(){
+					if( $(document).scrollTop() > 120 ){
+						
+						$('#navigation').css('position', 'fixed').animate({'top' : '20px'});
+					}
+					if( $(document).scrollTop() <= 120 ){
+						$('#navigation').css({'position' : 'relative', 'top' : '40px' });
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<article class="clearfix">	
+			<header class="clearfix">
+				<p id="logo">
+					<h1>SupportPress</h1></p>
+                <div id="title">
+                	<h6>Theme Documentation</h6>
+                    <p>Created by Jason Herndon on Feb 16, 2014</p>
+                </div>
+			</header>
+			<section id="content">
+
+				<h2 id="welcome">Welcome <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h2>
+				
+				<p>Thanks for buying this theme, I hope you truly enjoy working with it! This document covers the basic installation and use of this theme. If you have any questions that aren’t addressed here, feel free to post in the forum at Themeforest or message me on my page.</p>
+				
+				<h2 id="getting-started">Getting Started <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h2>
+
+				<h3 id="installation">Installation <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h3>
+				<p>You can install SupportPress in one of two ways:</p>
+		
+				<p><strong><em>Via FTP:</em></strong> Using any FTP program, you can upload the unzipped theme to the /wp-content/themes/folder on your site.</p>
+		
+				<p><strong><em>WordPress Installer:</em></strong> Basically, you can go to Appearance > Add New Themes > Upload and upload the theme.</p>
+
+				<h3>Video Demonstration</h3>
+				
+				<!-- THEME INSTALL VIDEO -->
+				<iframe src="http://player.vimeo.com/video/68450239?byline=0&amp;portrait=0" width="100%" height="400" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/68450239">SupportPress Theme Install</a> from <a href="http://vimeo.com/user17838329">IcarusCreativeOrg</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+				*Note - this is for another theme - but the steps taken are identical.<br/>
+
+				<p>Either way, be sure to activate the theme by going to Appearance > Themes and activate SupportPress.</p>
+				<p>For more info, you can visit: <a href="http://codex.wordpress.org/Using_Themes">http://codex.wordpress.org/Using_Themes</a></p> 
+
+				<h3 id="initial-setup">Initial Setup <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h3>
+				<p>Fistly, you'll want to take a look at the general settings that are found in the backend under the menu option "SupportPress". Once there, you can add the header logo, customize colors and a few other things which we'll cover in a moment.</p>
+
+				<p>Next, you'll need to add the following pages. Once you've added each page, you will need to add their URL's to the theme's backend. This is because while you are free to arrange the pages and menu however you'd like, there are some pages, the ones above, which are required to be added. Simply copy/paste the URL's for each page into their corresponding field.</p>
+						
+				<br/>
+						<img src="images/pagestoadd.png" style="width:100%;"/>
+						<br/>
+						<br/>
+
+
+				<h2 id="theme-usage">Theme Usage <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h2>
+				<p>The following are screenshots of how to use SupportPress and it's supported functionality.</p>
+
+			
+				<h3 id="adding-users">Adding/Editing Users <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h3>
+			
+							<p>All of your users can be added via Wordpress's Built in User System. SupportPress is built to run on three types of users:</p>
+		
+		
+			<h2>The ADMIN Role:</h2>
+			<p>This is the standard WP Admin role and has full editing rights to all tickets and articles.</p>
+		
+			<h2>The EDITOR Role:</h2>
+			<p>Editor are help desk representatives that can be assigned to a specific category, and only that category, of help desk tickets. They have the same options of editing a ticket an admin has, they can just only see their group of tickets.</p>
+		
+			<h2>The SUBSCRIBER Role:</h2>
+			<p>A subscriber is anyone who has registered with the site. They cannot edit tickets and can only see tickets that they've requested.</p>
+					
+					<p>User images are generated via Gravatar but can also be generated using the WP User Avatar plugin (outlined below).</p>
+					<p>For more information on Gravatar: <a href="http://www.en.gravat.com">CLICK HERE</a></p>
+
+
+			<p>You'll want to make sure that the site is set up to allow registration and to assign new registrants as subscribers. You can access this in General Settings in Wordpress.</p>
+
+
+
+
+
+
+
+
+
+				<h2 id="login">Login Page <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h2>
+				<p>While Users can log in when prompted, or register, the theme also supports creating a generic login page which users can visit from the link at the top of their page. To set this up:</p>
+				
+				<ol>
+					<li>Add a page with the custom template type: "Login"</li>
+					<li>Add that page's URL into the backend Theme Options Panel.</li>
+				</ol>
+		
+			
+	
+	
+				<h2 id="ticketing">Ticketing <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h2>
+
+		<strong>Please see the above section on Users, as it is CENTRAL to how ticketing works.</strong>
+
+
+		<h5>Assigning Users to Categories</h5>		
+		<p>Next, you'll want to assign your specific staff members to categories based on where they will have access. Remember, anyone in WP as an Editor can be assigned to a specific Ticketing Category. To make this easier, I've created a menu that shows on the front end:</p>		
+			
+		<p>To view this menu, simply:
+		
+			<ol>
+				<li>Create a Page with the Template type: "Admin Options"</li>
+				<li>Make sure that you've entered the URL of this page into the Theme Options Menu</li>
+				<li>Visit the Front Site and if you scroll to the bottom you will see a link that only appears if you are an Admin and the first two steps here are created. Visit this link to update any of the Editors in WP.</li>
+			</ol>
+		
+		</p>	
+			
+			<p>Don't forget to add a page with the Custom Template set for adding tickets, and to then add this URL into the Theme Options page. This will ensure that when subscribers are logged in, and have clicked on the help desk, they can submit a ticket.</p>
+			
+			<p>All Tickets by default are "Open" and have a Priority of "Low". All are unassigned until someone from their category, or an admin, assigns the ticket. Admins and Editors can update the ticket status at any time. Any time that a change or comment is made, the requestor will be notified.</p>
+			
+
+		<p>Assuming your users are set up correctly, setting up the ticketing is a breeze. Simply add the page with the custom template of "Help Desk" (with or without the prioritization for Admins). When each user visits this, depending on their roles, they will see different things.</p>
+
+			
+
+
+
+
+				<h2 id="twitter">Twitter <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h2>
+
+		<strong>To use the Twitter features built into SupportPress - you'll need to do three things.</strong>
+
+		<h5>1 - Create API Access</h5>		
+		<p>Twitter requires that you create an API key and tokens for your websites integration. More about this can be learned at dev.twitter.com - but the quick way to get started would be to:</p>		
+
+			<ol>
+				<li>Go to dev.twitter.com and sign in with your personal or company Twitter login (whichever you want to be the main face on Twitter where people go for support).</li>
+				<li>Go to dev.twitter.com/apps and create and "Application". You need to give them all the information they ask, but the callback URL is not necessary or supported</li>
+				<li>Click the Oauth Tab in the App Settings that you've just created. Go through the processes of creating consumer and access tokens and secrets. All for of the following should be filled in:</li>
+			</ol>
+
+
+			<!-- admin options -->
+			<img src="images/oauth_settings.png" style="width:100%;"/>  
+
+	
+	
+			<h5>2 - Connect to Theme</h5>		
+		
+			<p>In the Theme Admin settings, copy those four fields into your Twitter Settings. Also - here is the screen where you specify what search term to use. This is the term that you will give people to use for support.</p>
+
+
+
+			<h5>3 - Add Page</h5>
+			
+			<p>Add a page in your theme with the Template - Twitter Feed selected. Apply this page to whichever menu you'd like and you're all set.</p>
+
+		<br/>
+
+
+			
+
+
+
+				<h2 id="kb">Knowledgebase <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h2>
+	<p>The KnowledgeBase is easy to setup as well. Simply:</p>
+
+			<ol>
+				<li>Add a page with a custom template for the KnowledgeBase</li>
+				<li>Add the categories of Articles in the KnowledgeBase</li>
+			</ol>
+
+		<p>You can now add articles to this custom post type and the KnowledgeBase page will list and sort all of the articles, grouping them together and generating the sidebars.</p>
+
+		<br/>
+
+			
+			
+	
+	
+	
+
+				<h2 id="docs">Documentation <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h2>
+	<p>The Documentation is setup in a similar way to the KnowledgeBase but they function differently. The documentation is presented in a linear fashion, where the posts are ordered by THE DATE ADDED or THEIR SLUG. You can manipulate and edit either of these to hack the order to be what you would like it to be.</p>
+
+			<ol>
+				<li>Add a page with a custom template for the Documenation</li>
+				<li>Add the categories of Sections in the Documentation</li>
+				<li>Add your docs to each section, using their slug or post date as a way to order them.</li>
+			</ol>
+
+		<br/>
+
+			
+			
+	
+	
+	
+	
+	
+
+				<h2 id="faqs">FAQs <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h2>
+		<p>The FAQ is likewise made by:</p>
+
+			<ol>
+				<li>Add a page with a custom template for the FAQs</li>
+				<li>Add your questions to the custom post type FAQ.</li>
+			</ol>
+
+		<p>The FAQ page auto generates this section.</p>
+
+		<br/>
+
+			
+			
+	
+		
+	
+
+				<h2 id="forumchat">Forum & Chat <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h2>
+			<h5>BBPress Forum</h5>
+			<p>This theme has been custom coded to work with bbPress Forum. Specifically, we've:
+			
+				<ul>
+					<li>Added a Sidebar for the bbPress Index Page</li>
+					<li>Added a Sidebar for Forums</li>
+					<li>Added a Sidebar for Topics</li>
+					<li>Added a Sidebar for Replies</li>
+					<li>Added some extra CSS for styling</li>
+				</ul>
+			</p>
+
+			<p>To integrate it with SupportPress, simply download and activate the plugin, and then add a page with the custom post type "Forum".</p>
+
+			<p>For more information on using bbPress visit http://www.bbpress.org.</p>
+
+		
+			<h5>Chat</h5>
+			<p>SupportPress uses the QuickChat Plugin for it's chat features. There are lots of cool chat plugins with great features - we simply chose this one because it was lightweight and had the ability for you to create as many chat "rooms" as you'd like via a shortcode.</p>
+
+			<p>To integrate it with SupportPress, simply download and activate the plugin, and then add a page with the custom post type "Chat".</p>
+
+			<p>For more information on using QuickChat visit http://wordpress.org/extend/plugins/quick-chat/.</p>
+
+
+		<br/>
+
+			
+			
+	
+
+		<!-- SECTION TITLE -->
+		<h2 id="pages"><strong>Extra Pages</strong> - <a href="#toc">top</a></h2>
+
+		<p>Included in this theme are left/right sidebar pages, full width pages, contact page pages and blog postings. You can view all these page types under the Page Template settings on each page.</p>
+
+			
+			<br/>
+			
+				<h2 id="plugins">Plugins <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h2>
+				<p>SupportPress takes advantage of the following two plugins:</p>
+					
+					<ul>
+						<li>WP User Avatar: Allows you to replace/override the gravatar image for a user by default. <a href="http://wordpress.org/plugins/wp-user-avatar/">Click here for more info on this plugin</a>. We've integrated it into the front end of SupportPress on a users profile so it is completely editable on a users profile page. <strong>PLEASE NOTE: If you are planning to use this plugin (which we recommend) you should enable it not only in WordPress but in the SupportPress theme settings as well.</strong></li>
+						<li>Quick Chat: For the chat page, if desired, SupportPress has customized CSS to match Quick Chat out of the box. <a href="http://wordpress.org/plugins/quick-chat/">Click here for more info on this plugin.</a></li>
+					</ul>
+			
+				<h2 id="widgets">Widgets <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h2>
+				<p>We provide the following custom build widgets for SupportPress:</p>
+				<ul>
+					<li><em>Recent Custom Posts</em> - Display Recent Posts from a Custom Post Type</li>
+					<li><em>Recent Custom Posts Type Categories</em> - Display Recent Posts from a Custom Post Type Categories</li>
+					<li><em>Video</em> - A way to showcase videos</li>
+				</ul>
+				
+				<p>As well, there are extra widget spaces for sidebars and pages.</p>
+
+
+
+
+
+
+
+				<h2 id="support">Support <span class="go-top">&nbsp;&nbsp;&nbsp;<a href="#title">Back to top &uarr;</a></span></h2>
+				<p>Again, thank you for purchasing this theme! If you have any questions that are beyond the scope of this document, feel free to pose them in the dedicated support forum on Themeforest.net. or email me directly at icaruscreativeorg@gmail.com.</p>
+
+
+			</section>
+			<aside>
+				<ul id="navigation">
+					<li><a href="#welcome">Overview</a></li>
+					<li><a href="#getting-started">Getting Started</a>
+						<ul>
+							<li><a href="#installation">Instalation</a></li>
+							<li><a href="#initial-setup">Initial Setup</a></li>
+						</ul>
+					</li>
+					<li><a href="#theme-usage">Theme Usage</a>
+						<ul>
+							<li><a href="#adding-users">Adding/Editing Users</a></li>
+						</ul>
+					</li>
+					<li><a href="#login">Login</a>
+					<li><a href="#ticketing">Ticketing</a>
+					<li><a href="#twitter">Twitter</a>
+					<li><a href="#kb">KnowledgeBase</a>
+					<li><a href="#docs">Documentation</a>
+					<li><a href="#faqs">FAQs</a>
+					<li><a href="#forumchat">Forum & Chat</a>
+					<li><a href="#pages">Extra Pages</a>
+					<li><a href="#plugins">Plugins</a>
+					<li><a href="#widgets">Widgets</a>
+					<li><a href="#support">Support</a></li>
+				</ul>
+			</aside>
+		</article>
+</body>
+</html>
