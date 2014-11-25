@@ -35,6 +35,8 @@ global $itdata;
 	}
 
 
+	$loginpage = $itdata['login_page'];		
+	
 	$avatar	= get_avatar( $current_user_email, 74 );
 
 	$today = date(get_option('date_format'));

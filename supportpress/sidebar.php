@@ -2,6 +2,8 @@
 /**
  * IcarusThemes
  */
+
+global $loginpage, $current_user_displayname, $current_user_email;
 ?>
 
 <div id="sidebar">
@@ -12,7 +14,7 @@
 			
 			<?php
 			
-				if ( ( is_single() || is_front_page() || is_page() ) && !is_page('login') && !is_user_logged_in()){  ?>
+				if ( ( is_single() || is_front_page() || is_page() || is_search() ) && !is_page('login') && !is_user_logged_in()){  ?>
 				      
 				    <p>You are not logged in &middot; <a href="<?php echo $loginpage ?>">Log In</a></p>
 				      

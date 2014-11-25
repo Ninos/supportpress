@@ -62,7 +62,7 @@ $tickets_filter_parent = '';
         <?php 
 			
 			if ( ( is_single() || is_front_page() || is_page() ) 
-			       && !is_page('login') && !is_user_logged_in()){ 
+			       && !is_user_logged_in()){ 
 			
 				//user is not logged in
 			    //auth_redirect(); 
