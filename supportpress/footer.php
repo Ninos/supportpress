@@ -84,12 +84,12 @@ if(!is_404()) {
     </div><!-- /footer-bottom --> 
 </div><!-- /wrap -->
     
-<?php 
-//show analytics - tracking code - footer 
-echo stripslashes($itdata['analytics_footer']); 
-?>
-<?php 
+<?php
 //get footer
-wp_footer(); ?>
+wp_footer();
+?>
+<?php
+//show analytics - tracking code - footer 
+echo stripslashes($itdata['analytics_footer']); ?>
 </body>
 </html>

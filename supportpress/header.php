@@ -52,14 +52,14 @@ global $itdata; //get theme options
 <![endif]-->
 
 
-<?php
-//header analytics code
-echo stripslashes($itdata['analytics_header']);
-?>
 <!-- WP Head
 ================================================== -->
 <?php wp_head(); ?>
 
+<?php
+//header analytics code
+echo stripslashes($itdata['analytics_header']);
+?>
 </head><!-- /end head -->
 
 <!-- Begin Body
