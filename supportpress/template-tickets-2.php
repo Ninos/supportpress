@@ -111,7 +111,7 @@ $tickets_filter_parent = '';
 					    	<h1>Sign-in to your Account</h1>  
 					    </div>  
 				
-					<form name="log inform" id="log inform" action="<?php echo home_url(); ?>/wp-login.php" method="post">
+					<form name="log inform" id="log inform" action="<?php echo wp_login_url(); ?>" method="post">
 					<p>
 						<label>Username<br />
 						<input type="text" name="log" id="user_login" class="input width300" value="" size="20" tabindex="10" /></label>
@@ -149,7 +149,7 @@ $tickets_filter_parent = '';
         <div class="title">  
             <h1>Register your Account</h1>  
         </div>  
-            <form action="<?php echo site_url('wp-login.php?action=register', 'login_post') ?>" method="post">  
+            <form action="<?php echo wp_registration_url(); ?>" method="post">  
 				
 				<p>
 					<label>Username<br />
